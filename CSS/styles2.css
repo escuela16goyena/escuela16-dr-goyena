@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#e3f2fd;
+    color:#1c2d3d; 
+}
+
+header{
+    border-bottom:1px solid #cadcff;
+    background:#ffffff; 
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+    background-color: white;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:70px;
+}
+
+.logo h2{
+    font-size:24px;
+    color:#1565c0; 
+}
+
+.logo p{
+    color:#607d8b;
+}
+
+/* NAV */
+
+nav{
+    display:flex;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#1c2d3d;
+    font-weight:bold;
+}
+
+.botonnav{
+    background:#1565c0; 
+    color:white;
+    padding:15px 25px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.botonnav:hover{
+    background:#0d47a1; 
+}
+
+/* INICIO */
+
+.inicio{
+    padding:80px 0;
+}
+
+.inicio-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.texto h1{
+    font-size:55px;
+    color:#1565c0; 
+    line-height:1.1;
+    margin-bottom:25px;
+}
+
+.texto p{
+    font-size:27px;
+    color:#455a64;
+    margin-bottom:30px;
+}
+
+/* IMAGEN */
+
+.imagen img{
+    width:100%;
+    border-radius:20px;
+    display:block;
+}
+
+main{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+main section{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    padding:50px 0;
+    border-top:1px solid white; 
+}
+.contenedor{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.contenido{
+    flex:1;
+}
+
+.contenido h2{
+    color:#1565c0; 
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.contenido p{
+    font-size:24px;
+    line-height:1.6;
+    color:#455a64;
+}
+
+.imagenchica{
+    min-width:180px;
+    display:flex;
+    justify-content:center;
+}
+
+.imagenchica img{
+    width:140px;
+}
+
+.contenedor-boton {
+    display: flex;
+    justify-content: center; 
+    padding: 40px 0;
+}
+
+.boton-seccion {
+    background: #1565c0; 
+    color: white;
+    padding: 15px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    width: 49%;
+    text-align: center;
+}
+
+.boton-seccion:hover {
+    background: #0d47a1; 
+}
+
+.plantas {
+    background:#bbdefb;
+    padding: 60px 0;
+    text-align: center;
+}
+
+
+.titulo-plantas {
+    color: #1565c0; 
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background:#1565c0; 
+    color:white;
+    padding:40px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer div{
+    display: flex;
+    gap: 40px;
+}

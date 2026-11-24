@@ -24,7 +24,7 @@
 
       <nav>
         <a href="index.php" class="botonnav">Inicio</a>
-        <a href="nuestraescuela.php " class="botonnav">Nuestra Escuela</a>
+        <a href="nuestraescuela.php" class="botonnav">Nuestra Escuela</a>
        
       </nav>
 
@@ -57,28 +57,24 @@
 <main>
     <section>
         <div class="imagenchica">
-            <img src="imagenes/libro.png" alt="Introduccion">
+            <img src="imagenes/libro.png" alt="Introducción">
         </div>
         <div class="contenido">
         <h2>Introducción</h2>
         <p>
-            La Escuela de Educación Primaria N°16 de la ciudad de Mar del Plata es una institución educativa 
-            que ha formado parte del crecimiento social y educativo de la comunidad local durante varias décadas. 
-            Su historia refleja el compromiso con la educación pública y la formación de generaciones de estudiantes.
+            La Escuela de Educación Primaria N° 16 "Dr. Pedro Goyena" de la ciudad de Mar del Plata fue fundada el 6 de octubre de 1902 como "Escuela Mixta Infantil". A lo largo de más de un siglo de trayectoria, la institución ha cumplido un rol primordial en el crecimiento educativo, cultural e inclusivo de la comunidad marplatense, educando a numerosas generaciones de estudiantes en el marco del respeto y los derechos fundamentales.
         </p>
         </div>
     </section>
 
     <section>
         <div class="imagenchica">
-            <img src="imagenes/educacion.png" alt="Origenes">
+            <img src="imagenes/educacion.png" alt="Orígenes">
         </div>
         <div class="contenido">
         <h2>Orígenes</h2>
         <p>
-            La escuela fue fundada con el objetivo de brindar acceso a la educación primaria en un contexto de 
-            expansión urbana en Mar del Plata. En sus inicios, contaba con una infraestructura básica y un 
-            número reducido de docentes y alumnos.
+            En sus comienzos, bajo la dirección de la Sra. Adelina Méndez Funes de Millán y con Juan Camet como comisionado escolar, la escuela abrió sus puertas en la intersección de Moreno y España con una matrícula inicial de 42 niños de entre 6 y 14 años. El constante crecimiento urbano y el incremento de estudiantes motivaron traslados a sedes en Moreno y Dorrego (1909) y posteriormente a Dorrego 2071 (1919), donde la institución funcionó durante 38 años.
         </p>
         </div>
     </section>
@@ -90,12 +86,9 @@
         <div class="contenido">
         <h2>Crecimiento y Desarrollo</h2>
         <p>
-            Con el paso del tiempo, la institución fue ampliando sus instalaciones y mejorando sus recursos 
-            educativos. Se incorporaron nuevas aulas, materiales didácticos y programas pedagógicos que 
-            respondían a las necesidades de la comunidad. <br>
+            A lo largo del siglo XX, la institución expandió sus servicios y sus recursos educativos. En 1943 se le impuso formalmente el nombre de "Dr. Pedro Goyena" y se fundó su emblemática Asociación de Ex-alumnos. En 1951 inauguró su edificio propio en Falucho 4070. <br><br>
 
-            Además, la escuela se consolidó como un espacio de inclusión y participación, promoviendo valores 
-            como el respeto, la solidaridad y el trabajo en equipo.
+            A través de las décadas, la escuela sumó avances clave como la habilitación de su Biblioteca escolar "Domingo Faustino Sarmiento", talleres pedagógicos, proyectos ambientales (como la iniciativa estudiantil que dio origen al barco "Mar Limpio" del Astillero Contessi) y la adopción de la estructura de E.G.B.
         </p>
         </div>
     </section>
@@ -107,9 +100,7 @@
         <div class="contenido">
         <h2>Actualidad</h2>
         <p>
-            En la actualidad, la Escuela N°16 continúa desempeñando un rol fundamental en la educación de niños 
-            y niñas de Mar del Plata. Cuenta con un equipo docente comprometido y una comunidad educativa activa 
-            que participa en distintos proyectos y actividades.
+            La Escuela N° 16 cuenta con una comunidad educativa activa, conformada por equipos directivos, docentes, orientadores y personal auxiliar comprometidos con la enseñanza pública de calidad. La institución impulsa proyectos comunitarios, talleres, medios escolares e integración tecnológica, ofreciendo un entorno seguro y funcional para las nuevas generaciones de alumnos.
         </p>
         </div>
     </section>
@@ -121,13 +112,13 @@
         <div class="contenido">
         <h2>Importancia en la comunidad</h2>
         <p>
-            La escuela no solo cumple una función educativa, sino también social, siendo un punto de encuentro 
-            para familias y vecinos. A lo largo de los años, ha contribuido significativamente al desarrollo 
-            cultural y social del barrio.
+            Más que un centro educativo, la Escuela N° 16 es un pilar histórico y afectivo del barrio. Respaldada históricamente por el padrinazgo del Astillero Contessi y el apoyo del Centro Médico Mar del Plata, la escuela promueve valores de solidaridad, cooperación y superación social. Familias enteras de exalumnos regresan a sus aulas para confiar la formación de sus hijos y nietos, reafirmando su presencia activa en el desarrollo cultural de Mar del Plata.
         </p>
         </div>
     </section>
-</main> <section class="plantas">
+</main>
+
+<section class="plantas">
     <div class="contenedor">
         
         <h2 class="titulo-plantas">Plantas de la institución</h2>
@@ -151,3 +142,5 @@
         </div>
     </div> 
 </footer>
+</body>
+</html>

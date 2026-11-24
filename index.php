@@ -17,7 +17,7 @@ session_start();
     <div class="contenedor header">
 
       <div class="logo">
-        <img src="imagenes/logoescuela.png">
+        <img src="imagenes/logoescuela.png" alt="Logo de la escuela">
 
         <div>
           <h2>ESCUELA PRIMARIA N°16</h2>
@@ -33,9 +33,13 @@ session_start();
 
           <a href="Login/logout.php" class="botonnav">Cerrar sesión</a>
 
+        <?php elseif(isset($_SESSION['comentario_usuario'])): ?>
+
+          <a href="Login/logout.php" class="botonnav">Cerrar sesión</a>
+
         <?php else: ?>
 
-          <a href="Login/logeo.php" class="botonnav">Iniciar Sesión</a>
+          <a href="Login/logeo_comentario.php" class="botonnav">Iniciar Sesión</a>
 
         <?php endif; ?>
 
@@ -115,12 +119,12 @@ session_start();
       <h2>Propuesta Educativa</h2>
 
       <div class="lista-materias">
-        <span>Lengua</span>
-        <span>Matemática</span>
+        <span>Praticas de lenguaje</span>
+        <span>Matematica</span>
         <span>Ciencias Naturales</span>
         <span>Ciencias Sociales</span>
-        <span>Arte y Música</span>
-        <span>Educación Física</span>
+        <span>Arte y Musica</span>
+        <span>Educacion Fisica</span>
       </div>
 
     </div>
@@ -141,5 +145,18 @@ session_start();
 
   </footer>
 
+<script>
+  // Acceso discreto de administración: 5 clics rápidos sobre el logo
+  (function () {
+    var logo = document.querySelector(".logo");
+    if (!logo) return;
+    var n = 0, t;
+    logo.addEventListener("click", function () {
+      n++; clearTimeout(t);
+      if (n >= 5) { window.location.href = "Login/acceso_admin.php"; return; }
+      t = setTimeout(function () { n = 0; }, 2500);
+    });
+  })();
+</script>
 </body>
 </html>
